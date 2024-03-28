@@ -5,6 +5,7 @@ module.exports = {
     async listarCidades(request, response) {
         try {            
             return response.status(200).json({
+                sucesso: true, 
                 mensagem: 'Lista de cidades.', 
                 dados: null
             });
